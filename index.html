@@ -1,40 +1,61 @@
-<!-- HTML文件注释示例 -->
+<!--
+ * @Author: 893306889 893306889@qq.com
+ * @Date: 2022-12-28 11:33:26
+ * @LastEditors: 893306889 893306889@qq.com
+ * @LastEditTime: 2022-12-28 11:34:00
+ * @FilePath: \HTML\罐头商店\index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>My test page</title>
-<link href="styles/style.css" rel="stylesheet">
-<link href="https://fonts.font.im/css?family=Open+Sans" rel="stylesheet"
-	type="text/css">
-</head>
-<body>
-	<h1>主标题</h1>
-	<h1>第二个主标题</h1>
-	<h2>顶层标题</h2>
-	<h3>子标题</h3>
-	<h4>次子标题</h4>
-	<img src="images/头像图标缩小版.png" alt="当图片出现错误时将显示这行字">
-	<p>
-		My cat is <strong>very</strong> grumpy.
-	</p>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Can Store</title>
+    <link href="https://fonts.googleapis.com/css?family=Cherry+Swash|Raleway" rel="stylesheet">
+    <link href="can-style.css" rel="stylesheet">
 
-	<p>At Mozilla, we're a global community of</p>
+  </head>
 
-	<ul>
-		<li></li>
-		<li>technologists</li>
-		<li>thinkers</li>
-		<li>builders</li>
-	</ul>
+  <body>
+    <header>
+      <h1>The Can Store</h1>
+    </header>
+    <div>
+      <aside>
+        <form>
+          <div>
+            <label for="category">Choose a category:</label>
+            <select id="category">
+              <option selected>All</option>
+              <option>Vegetables</option>
+              <option>Meat</option>
+              <option>Soup</option>
+            </select>
+          </div>
+          <div>
+            <label for="searchTerm">Enter search term:</label>
+            <input type="text" id="searchTerm" placeholder="e.g. beans">
+          </div>
+          <div>
+            <button>Filter results</button>
+          </div>
+        </form>
+      </aside>
+      <main>
 
-	<p>working together…</p>
+      </main>
+    </div>
+    <footer>
+      <p>All icons found at the Noun Project:</p>
 
-	<a href="https://www.mozilla.org/zh-CN/about/manifesto/">Mozilla
-		Manifesto</a>
-	<!-- 		s -->
-	<script src="scripts/main.js" defer></script>
-<button>切换用户</button>
-
-</body>
+      <ul>
+        <li>Bean can icon by <a href="https://thenounproject.com/yalanis/">Yazmin Alanis</a></li>
+        <li>Vegetable icon by <a href="https://thenounproject.com/skatakila/">Ricardo Moreira</a></li>
+        <li>Soup icon by <a href="https://thenounproject.com/ArtZ91/">Arthur Shlain</a></li>
+        <li>Meat Chunk icon by <a href="https://thenounproject.com/smashicons/">Oliviu Stoian</a>.</li>
+      </ul>
+    </footer>
+    <script src="can-script.js"></script>
+  </body>
 </html>
